@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the numbers from 00 to 99 digits
+ * main - prints the numbers from 00 to 99
  *
- * Return: Success
+ * Return: Always (Success)
  */
 int main(void)
 {
