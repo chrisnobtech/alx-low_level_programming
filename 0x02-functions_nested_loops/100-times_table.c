@@ -1,13 +1,13 @@
 #include "main.h"                                                
                                                                  
 /**                                                              
- * print_times_table - prints the multiplication table for n.             
+ * print-times-table - prints the multiplication table for n.             
  *                                                               
  * @n: The multiplication table requested.
  *
  * * Return: Zero.
  */
-void print_times_table(int n);
+void print-times-table(int n)
 {
 	int i, j, res; 
 
