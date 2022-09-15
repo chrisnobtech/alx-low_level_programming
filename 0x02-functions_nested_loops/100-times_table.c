@@ -7,8 +7,9 @@
  *
  * * Return: Zero.
  */
-void show_times_table(int n)
+int main (void)
 {
+	print_times_table(2);
 	int i, j, res; 
 
 	if (!(n > 15 || n < 0)) 
