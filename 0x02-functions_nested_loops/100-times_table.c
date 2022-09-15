@@ -1,15 +1,14 @@
 #include "main.h"                                                
                                                                  
 /**                                                              
- * show_times_table - prints the multiplication table for n.             
+ * print_times_table - prints the multiplication table for n.             
  *                                                               
  * @n: The multiplication table requested.
  *
  * * Return: Zero.
  */
-int main (void)
+void print_times_table(int n)
 {
-	print_times_table(2);
 	int i, j, res; 
 
 	if (!(n > 15 || n < 0)) 
