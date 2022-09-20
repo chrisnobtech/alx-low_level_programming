@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- * The main - entry point
+ * main - entry point
  *
  * Return: The generated password
  */
