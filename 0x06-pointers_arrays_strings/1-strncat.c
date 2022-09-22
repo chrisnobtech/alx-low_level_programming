@@ -1,27 +1,27 @@
 #include "main"
 
 /**
- * _strncat - add src to the dest string
- * @dest: string to add by src
- * @src: string to add to dest
- * maximum to add
+ * _strncpy - C function that copies a string
+ * @dest: string to be copied to
+ * @src: string being copied
+ * @n:max nummber of byte copied
  *
- * Return: The link to the dest
+ * Return: Link of dest
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
-	int i, j;
+	int i;
 
-	i = j = 0;
-	while (*(dest + i))
-		i++;
-	while (j < n && *(src + j))
+	i = 0;
+	while (i < n && *(src + i))
 	{
-		*(dest + i) = *(src + j);
+		*(dest + i) = *(src + i);
 		i++;
-		j++;
 	}
-	if (j < n)
-		*(dest + i) = *(src + j);
+	while (i < n)
+	{
+		*(dest + i) = '\0';
+		i++;
+	}
 	return (dest);
 }
