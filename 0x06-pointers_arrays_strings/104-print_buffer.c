@@ -39,6 +39,7 @@ void print_line(char *c, int s, int l)
  *
  * Return: Nothing
  */
+
 void print_buffer(char *b, int size)
 {
 	int i;
