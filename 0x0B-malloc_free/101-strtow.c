@@ -49,7 +49,7 @@ int num_words(char *str)
 }
 
 /**
- * strtow - splits a string into words 
+ * strtow - splits a string into words
  * @str: input string to split
  * Return: pointer to new string
  */
